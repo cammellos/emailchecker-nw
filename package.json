@@ -1,0 +1,22 @@
+{
+  "name": "Email-Checker",
+  "description": "Chrome platform app.",
+  "version": "0.0.1",
+  "dependencies": {
+     "imap": "0.8.6",
+     "async": "*",
+     "lodash": "2.2.1"
+
+  },
+  "main": "emailchecker.html",
+  "window": {
+    "show": false,
+    "toolbar": false,
+    "frame": false,
+    "position": "center",
+    "width": 360,
+    "height": 300,
+    "min_width": 220,
+    "min_height": 220
+  }
+}

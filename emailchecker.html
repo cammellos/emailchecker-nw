@@ -1,0 +1,37 @@
+<style>
+  .hidden {
+     display: none;
+  }
+</style>
+<html>
+  <head>
+    <script src="emailchecker.js"></script>
+  </head>
+  <body>
+    <div id="content">
+      <div id="inner-content">
+        <div id='new-account-dialog' class='hidden'>
+           Username:
+           <input id='username' type='text' name='email'>
+           <br/>
+           Password:
+           <input id='password' type='password' name='password'>
+           <br/>
+           Host:
+           <input id='host' type='text' name='email'>
+           <br/>
+           Port
+           <input id='port' type='text' name='email'>
+           <br/>
+           <input id='account-submitted' type='submit' value='Ok'>
+        </div>
+
+        <div id='encryption-password-dialog' class='hidden'>
+           Please enter your encryption password:
+           <input id='encryption-password' type='password'>
+           <input id='password-submitted' type='submit' value='Ok'>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
